@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput undecimum</title>
+        <author ref="#Dionysius">Pseudo-Dionysius</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do
+            Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="pdah-c11">
+        <head xml:id="pdah-c11-Hd1e126">Angelica Hierarchia, Caput undecimum</head>
+        <head xml:id="pdah-c11-Hd1e129" type="question-title">Quare omnes celestes substantie
+          communiter virtutes celestes vocantur.</head>
+        <p xml:id="pdah-c11-d1e132">
+          Hiis autem determinatis, illud dignum attendere, propter quam
+          causam universas simul angelicas substantias virtutes celestes vocare consuevimus. Non
+          enim est dicere, sicut in angelis, quod omnium est ultimus ornatus sanctarum virtutum. Et
+          ea quidem, que est ultimorum, sanctos decente illuminatione superpositarum substantiarum
+          ornatus participant; ultimi autem primorum nunquam. Huius gratia et celestes virtutes
+          quidem nominantur. Seraphin autem et throni et dominationes nunquam. Non participabiles
+          enim ultimi supremorum totalium proprietatum. Etenim angeli et ante angelos archangeli et
+          principatus et potestates, et hii post virtutes a theologia ordinati et communiter
+          multotiens a nobis simul cum aliis substantiis celestes virtutes appellantur. Dicimus
+          autem quod communiter in omnibus usi celestium nominatione virtutum, non confusionem
+          quandam uniuscuiusque ornatus proprietatum inducimus. Sed quoniam in tria divise sunt ea
+          que secundum ipsas est supermundana ratione omnes divine mentes in substantiam et virtutem
+          et operationem, quando universas ut quasdam ipsarum sine observatione celestes substantias
+          aut celestes virtutes vocamus, ipsas per periphrasim, de quibus est sermo, significare nos
+          est arbitrandum, ex ea que secundum unamquamque ipsarum est substantia aut virtute. Neque
+          enim superpositam proprietatem facile est iam bene nobis discretarum sanctarum virtutum et
+          subiectis totaliter adiungere substantiis, in conversione inconfusi angelicorum ornatuum
+          ordinationis principatus. Etenim secundum multotiens a nobis recte assignatam rationem,
+          supereminentes quidem ornatus habundanter habent et subiectorum sanctas proprietates.
+          Ultimi autem dignorum superpositas totalitates non habent, particulariter ad ipsas prius
+          apparentibus illuminationibus, per primas iuxta proportionem suam delatis. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

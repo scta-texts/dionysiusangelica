@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput tertium</title>
+        <author ref="#Dionysius">Pseudo Dionysius</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do
+            Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="pdah-c3">
+        <head xml:id="pdah-c3-Hd1e110">Angelical Hierarchia, Caput tertium</head>
+        <head xml:id="pdah-c3-Hd1e129" type="question-title">Quid est Ierarchia et que secundum Ierarchiam utilitas.</head>
+        <p xml:id="pdah-c3-d1e132">
+          Est quidem Ierarchia, secundum me, ordinatio sancta et scientia et operatio ad deiformem,
+          sicut possibile est, assimilata, et ad inditas ipsi a Deo illuminationes iuxta
+          proportionem ad Dei inmitativum sursumacta. Deo autem conveniens pulchritudo, sicut
+          simplex, sicut bona, sicut thelearchica, munda quidem est universaliter ab omni
+          dissimilitudine; distributiva autem proprii luminis secundum dignitatem uniuscuiusque et
+          perfectiva in perfectione divinissima secundum perfectorum convenienter ad ipsam
+          intransmutabilem formationem.
+        </p>
+        <p xml:id="pdah-c3-d1e135">
+          Intentio igitur Ierarchie est ad Deum, sicut est possibile, assimilatio et unitio, ipsum
+          habens omnis sancte et scientie et operationis ducem, et ad ipsius divinissimum decorem
+          indeclinabiliter quidem videns, et, sicut est possibile, formata. Et ipsius chorum agentes
+          insignia divina faciens, specula clarissima et inmaculata et susceptiva radii principis
+          luminis et thearchici et indita quidem claritate sancte adimpleta. Hanc autem rursus
+          copiose in ea que sequuntur cum splendore enitentia secundum thearchicas leges. Non enim
+          fas est sanctorum perfectoribus aut sancte perfectis operari aliquid universaliter preter
+          proprias perfectionis principis sanctas ordinationes. Sed neque existere aliter, nisi
+          deificam ipsius claritatem desiderent, et ad ipsam, ut decet sanctos, respiciant, et
+          reformentur secundum uniuscuiusque sanctarum mentium proportionem.
+        </p>
+        <p xml:id="pdah-c3-d1e138">
+          Est igitur Ierarchiam dicens, sanctum quendam universaliter monstrat ornatum, ymaginem
+          pulchritudinis thearchie in ordinibus et scientiis ierarchicis proprie illuminationis
+          sancte operantem misteria, et ad proprium principium, sicut est fas, assimiltatum. Est
+          enim unicuique Ierarchiam sortitorum perfectio, secundum propriam proportionem, ad Dei
+          imitativum esse reductum, et quod quidem omnibus est divinius, ut eloquia dicunt, Dei
+          cooperatorem fieri et monstrare divinam operationem in se ipso sicut est possibile,
+          manifestatam. Sicut quoniam ordo Ierarchie est alios quidem purgari, alios quidem purgare,
+          et hos quidem illuminari, illos autem illuminare, et hos quidem perfici, illos autem
+          perficere unicuique Dei inmitativum convenit secundum hunc modum. Divina beatitudo, sicut
+          in hominibus dicitur, munda quidem est ab universa dissimilitudine, plena autem lumine
+          sempiterno, perfecta, et non indigens universe perfectionis, purgans et illuminans et
+          perficiens; magis autem purgatio sancta et illuminatio et perfectio super purgationem et
+          super lumen, aut perfecta, per se perfectionis principatus. Et omnis quidem Ierarchie
+          causa, ab omni sancto secundum excessum segregata.
+        </p>
+        <p xml:id="pdah-c3-d1e142">
+          Oportet igitur, sicut extimo, purgatos quidem mundos perfici universaliter, et ab omni
+          liberari dissimili conmixtione; illuminatos autem adimpleri divino lumine ad
+          contemplativum habitum et virtutem in castissimis mentis oculis sursumactos; perfectos
+          vero ex imperfecto traductos participes fieri inspectorum sanctorum perfective scientie.
+          Purgativos autem ex habundantia purgationis aliis tradere de propria castitate.
+          Illuminativos vero, sicut clariores mentes ad participationem luminis et traditionem
+          familiariter se habentes et ditissime sancta adimpletos claritate secundum omne ipsorum
+          superfusum lumen supervehere. Perfectivos autem sicut scientes perfectivam traditionem,
+          perficere eos qui perficiuntur sanctissima doctrina per inspectorum sanctorum scientiam.
+          Igitur unusquisque ierarchici ornatus ordo secundum propriam proportionem sursumagitur ad
+          divinam cooperationem, illa faciens gratia et a Deo data virtute quo thearchie naturaliter
+          et supernaturaliter insunt, et ab ipsa supersubstantialiter fiunt, et ad possibilem
+          amantium Deum mentium inmitationem ierarchice manifestantur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

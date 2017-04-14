@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput sextum</title>
+        <author>Pseudo-Dionysius</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do
+            Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="pdah-c6">
+        <head xml:id="pdah-c6-Hd1e126">Angelica Hierarchia, Caput sextum</head>
+        <head xml:id="pdah-c6-Hd1e129" type="question-title">Quis primus celestium substantiarum ornatus, quis medius, quis ultimus.</head>
+        <p xml:id="pdah-c6-d1e132">
+          Quot quidem sunt et quales supercelestium substantiarum ornatus et qualiter secundum
+          ipsas Ierarchie perficiuntur, solum manifeste scire dico deificam ipsarum teletarchiam.
+          Preterea et ipsos cognovisse proprias virtutes et illuminationes et ipsorum sanctam et
+          supermundanam bonam ordinationem. Impossibile est enim nos scire supercelestium mentium
+          misteria et sanctissimas ipsarum perfectiones nisi dicat aliquis quecumque per ipsas sicut
+          et propria bene scientes nos thearchia erudivit. Igitur nos quidem nichil proprio motu
+          dicemus. Quascumque autem angelicarum visionum sancti theologi contemplati sunt istas
+          docti nos, sicut possumus, exponemus.
+        </p>
+        <p xml:id="pdah-c6-d1e135">
+          Omnis theologia celestes substantias novem vocavit manifestativis nominationibus. Istas
+          divinus noster sanctitatis perfector in tres separat trinos ornatus. Et primum quidem esse
+          dicit circa Dei substantiam semper et attente ipsi et ante alios sine medio unitum esse
+          traditum. Sanctissimos enim thronos et multorum oculorum et multarum alarum ordines
+          cherubin, hebreorum voce, et seraphin nominatos secundum omnibus superpositam
+          propinquitatem circa Deum medio collocari dicunt tradere sanctorum eloquiorum
+          manifestationes. Trinum igitur hunc ornatum, sicut unum et coordinatum et vere primam
+          Ierarchiam, gloriosus noster dixit dux, quia non est altera deiformior et prius
+          operantibus divine Ierarchie illuminationibus sine medio attentior. Secundum autem esse
+          dicit ex dominationibus et virtutibus et potestatibus. Et tertium postreme celestium
+          Ierarchiarum et angelorum et archangelorum. et principatuum ornatum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

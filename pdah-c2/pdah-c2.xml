@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput secundum</title>
+        <author ref="#Dionysius">Pseudo-Dionysius</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do
+            Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="pdah-c2">
+        <head xml:id="pdah-c2-Hd1e110">Angelical Hierarchia, Caput secundum</head>
+        <head xml:id="pdah-c2-Hd1e129" type="question-title">Quod convenienter divina et celestia per dissimilia signa manifestantur</head>
+        <p xml:id="pdah-c2-d1e132">
+          Convenit igitur, sicut exstimo, primum exponere, quam quidem esse intentionem universe
+          Ierarchie existimamus et quid unaqueque iuvat ipsius chorum agentes. Demum autem celestes
+          Ierarchias laudare secundum ipsarum in eloquiis manifestationem. Consequenter vero post
+          hec dicere qualibus sanctis formationibus celestes figurant ornatus eloquiorum sancte
+          scripture, et ad qualem reduci oportet per formationes simplicitatem, quatenus non et nos
+          similiter, ut multi, inmunde arbitremur celestes et deiformes mentes et mulpedes esse
+          quasdam et multorum vultuum et ad boum animalitatem et ad leonum felinam formationem
+          formatas, et ad aquilarum curvi rostri speciem, aut ad volatilium tripartitam alarum
+          naturalem positionem formatas, et rotas quasdam igneas super celum imaginemur, et equos
+          quosdam multorum colorum. Et lanceas ferentes principum militie principes. Et quecumque
+          alia ab eloquiis nobis sacra formatione varietate manifestativorum signorum tradita sunt.
+          Etenim non sine arte theologia poeticis sanctis formationibus in non figuralibus mentibus
+          usa est, nostram, ut dictum est, mentem respiciens, et familiarem sibi ipsi et
+          connaturalem sursumactionem providens, et ad ipsam reformans sursumactivas sanctas
+          scripturas.
+        </p>
+        <p xml:id="pdah-c2-d1e135">
+          Si videtur autem alicui sanctas quidem recipere compositiones sicut simplicium in se
+          ipsis et ignotorum et incontemplatibilium nobis existentium, a significatione autem
+          recedentes arbitratur sanctarum mentium in eloquiis ymaginum scripturas, et omne, ut ita
+          dicatur, inconveniens hoc angelicorum nominum tabernaculum. Et oportere dicit theologos ad
+          corporalem formationem totaliter incorporeorum venientes, familiaribus ipsa et, sicut
+          possibile est, cognatis et reformare et manifestare figurationibus ex pretiosissimis apud
+          nos quodammodo et inmaterialibus substantiis et in omnibus superpositis et non celestibus
+          et non deiformibus simplicitatibus in terrenas ultimas circumponentes multiformitates. Hoc
+          enim ad sursumagendum nos quidem esset futurum opportunius et supermundanas
+          manifestationes non deorsumageret ad inconvenientes dissimilitudines. Illud vero et in
+          divinas inlegitime iniuriam faceret virtutes, et nostram forsitan aberrare faceret mentem
+          ad inmundas ipsam inferens compositiones. Et forsitan arbitrabitur supercelestia leoninis
+          quibusdam et equinis examinibus esse adimpleta et mugitiva ymnologia et volatili angelorum
+          principatu et animalibus aliis et materiis vilioribus quecumque ad inconveniens et
+          ignobile et passibile declinare describunt secundum omne dissimiles huiusmodi
+          manifestativorum eloquiorum similitudines.
+        </p>
+        <p xml:id="pdah-c2-d1e138">
+          Set veritatis, ut arbitror, inquisitio demonstrat eloquiorum sanctissimam sapientiam in
+          celestium formationibus, utrumque perfecte providentem quod neque in divinas, sicut
+          forsitan dicat aliquis, iniuriam faciat virtutes neque nos quidem in viles passibiliter
+          infixi simus imaginum humilitates. Etenim quod convenienter quidem proposite sint
+          informabilium forme et figure infigurabilium, non solam causam [dicat] aliquis esse
+          nostram proportionem, non valentem sine medio ad intelligibiles extendi contemplationes,
+          et indigentem familiarium et connaturalium sursumactionum, que possibiles nobis
+          formationes protendunt informabilium et supernaturalium visionum; set quod et hoc misticis
+          eloquiis est convenientissimum per archana et sancta enigmata abscondere et inviam multis
+          ponere sanctam et occultam supermundanarum mentium veritatem. Etenim non omnis sanctus
+          neque omnium, ut eloquia dicunt, cognitio. Si autem apparentes ymaginum scripturas accusat
+          aliquis, verecundum esse dicens, reponere ita turpes formationes deiformibus et
+          sanctissimis ornatibus, sufficit ad ipsum dicere quod duplex est sancte manifestationis
+          modus: hic quidem, sicut est conveniens, per similes procedens sancte formatas ymagines;
+          ille autem per dissimiles formationes ad perfectissime inconveniens et non apparens
+          formatus.
+        </p>
+        <p xml:id="pdah-c2-d1e142">
+          Igitur ad venerabilem supersubstantialis deitatis principatus beatitudinem
+          manifestativorum eloquiorum mistice traditiones aliquando quidem, sicut rationem et mentem
+          et substantiam, laudant, Deo convenientem rationabilitatem et sapientiam eius monstrantes
+          et vere existentem essentiam et existentium essentie causam veram. Et sicut lumen ipsam
+          reformant et vitam vocant, talibus sanctis reformationibus venerabilioribus quidem
+          existentibus et supermateriales formationes iacere quodam mode apparentibus sed minus
+          habentibus, et ita thearchica ad veritatem comparabilitate. Est enim super omnem
+          substantiam et vitam, nullo ipsam lumine figurante, omni autem ratione et mente a
+          similitudine ipsius incomparabiliter derelictis. Aliquando autem dissimilibus
+          manifestationibus ab eisdem eloquiis supermundane laudatur, invisibilem ipsam et
+          interminabilem et incomprehensibilem appellantibus. Et ea ex quibus non qui est, sed quod
+          non est, significatur. Hoc enim, sicut arbitror, et magis proprium est in ipsa, quia,
+          sicut occulta et sacerdotalis traditio suggessit, non esse quidem secundum aliquid
+          existentium ipsam vere dicimus. Ignoramus autem supersubstantialem ipsius et
+          incomprehensibilem et ineffabilem infinitatem. Si igitur negationes quidem sunt vere,
+          affirmationes autem inconvenientes occulto archanorum, magis est in visibilibus per
+          dissimiles reformationes manifestatio. Honorant igitur, non turpitudine adimplent celestes
+          ornatus eloquiorum sancte scripture, dissimilibus ipsos formationibus manifestantes, et
+          per istas demonstrantes a materialibus universis supermundane excedentes.
+        </p>
+        <p xml:id="pdah-c2-d1e145">
+          Quod autem nostram mentem sursumagunt magis a significatione recedentes similitudines non
+          arbitror quenquam bonum sensum habentium contradicentem. Nam ad pretiosiores quidem
+          sanctas formationes consequens est et decipi quosdam, arbitrantes esse celestes
+          substantias luciformes quosdam viros et fulgurantes, decentissime vestitos veste
+          splendida, et igneum sine lesione a se cum splendore emittentes. Et quibuscumque similiter
+          aliis formalibus formis theologia celestes figuravit mentes. Quod ut non patiantur hii qui
+          nichil apparentibus pulchris altius intendunt, sanctorum theologorum suscitativa sapientia
+          et ad inconvenientes dissimilitudines sancte deponitur, non permittens materiale nostrum
+          ad turpes ymagines manens quiescere, sed valde suscitans hoc anime quod sursum fert et
+          sublevans deformitate compositionum sicut non conveniente, neque vero apparente esse,
+          neque valde materialibus, ita turpibus comparabilia ad veritatem sicut celestes et divine
+          visiones.
+        </p>
+        <p xml:id="pdah-c2-d1e148">
+          Aliter etiam hoc intendere oportet, nichil existentium esse universaliter boni
+          participatione privatum, quoniam eloquiorum veritas dicit omnia bona valde. Est igitur ex
+          omnibus intendere bonas contemplationes ex materialibus intelligibilibus et
+          intellectualibus reformare dictas dissimiles similitudines, alio modo intellectualibus
+          habentibus que sensibilibus aliter sunt attributa. Etenim furor in irrationalibus quidem
+          ex passibili motu ingignitur, et omni irrationabilitate est plenus furibundus ipsorum
+          motus. Sed in intellectualibus alio modo oportet furibundum intelligere, monstrans, ut
+          extimo, virilem ipsorum rationabilitatem et durum habitum in deiformibus et inmutabilibus
+          collocationibus. Similiter concupiscentiam quidem etiam dicimus esse in irrationabilibus
+          non circumspectam quandam et materialem ex naturali motu aut consuetudine invariabilibus
+          in non valente teneri ingenitam ad aliquid passionem et irrationabilem corporalis
+          appetitus victoriam universum animal inpingentis ad concupiscibile secundum sensum.
+        </p>
+        <p xml:id="pdah-c2-d1e151">
+          Quando autem, dissimiles similitudines intellectualibus circumponentes, concupiscentiam
+          ipsis circumformamus, amorem divinum ipsum intelligere convenit, super mentem
+          inmaterialitatis et indeclinabile, et irremisibile desiderium supersubstantialiter caste
+          inpassibilis contemplationis, et ad illum mundum et summum splendorem et sine errore
+          existentem et pulchrificum decorem eterne, vere et intelligibilis conmunionis, et non
+          valens teneri, accipiamus in forti et non conversibili et a nullo incidi valente propter
+          purum et invariabilem divine pulchritudinis amorem et totalem declinationem ad vere
+          desiderabile.
+        </p>
+        <p xml:id="pdah-c2-d1e154">
+          Sed et ipsam irrationabilitatem et insensibilitatem in irrationabilibus quidem animalibus
+          aut inanimatis materiis privationem rationis et sensus proprie vocamus. In inmaterialibus
+          autem et intellectualibus substantiis ut decet sanctum, excessum ipsarum sicut
+          supermundanarum mentium confitemur nostre transibilis et corporalis rationis et alieni ab
+          incorporalibus mentibus sensus. Est igitur non dissonans reformari celestibus mentibus
+          formas ex vilissimis materie partibus, quoniam et ipsa a vere bono essentiam cum habuerit,
+          secundum omnem ipsius materialem ornatum resonantias quasdam intellectualis decoris habet.
+          Et possibile est per ipsas sursumagi ad inmateriales archetipias, dissimiliter, sicut
+          dictum est, similitudinibus acceptis et eisdem non eodem modo sed convenienter et
+          familiariter et intellectualibus et sensibilibus proprietatibus diffinitis. Hoc misticos
+          theologos inveniemus non celestium solum ornatuum manifestationibus sancte circumformantes
+          sed et ipsis aliquando thearchie manifestationibus et aliquando quidem ipsam ab
+          apparentibus pretiosis laudant, sicut solem iustitie, sicut stellam matutinam in mente
+          sancte orientem et sicut lumen non circumvelate et intelligibiliter resplendens. Aliquando
+          a mediis sicut ignem sine lesione illuminantem, sicut aquam vivifice adimpletionis
+          largitricem, et, ut significative dicatur, in ventrem subeuntem et fluvios manare
+          facientem inmensurabiliter defluentes. Aliquando autem ab ultimis sicut unguentum bene
+          olens, sicut lapidem angularem. Sed et ferinam formationem ipsi circumponunt, et leonis
+          ipsi et pantere proprietatem circumaddunt et pardum ipsam esse dicunt et ursam sevientem.
+          Addam etiam et omnibus vilius esse et magis dedecere apparens quod et vermis speciem sibi
+          circumformantem divinorum docti tradiderunt.
+        </p>
+        <p xml:id="pdah-c2-d1e157">
+          Ita denique sapientes et occulte inspirationis recitatores ab imperfectis et inmundis
+          inmaculate distinguunt sancta sanctorum, et dissimilem sic sanctam formationem honorant,
+          ut neque divina inmundis sint capi facilia, neque sanctarum figurarum videndi amatores
+          sicut veris permaneant in formis. Itaque divina honorant veris negationibus et ad ultima
+          familiarium resonantiarum diversis assimilationibus. Nichil igitur inconveniens, si et
+          celestes substantias ex recedentibus a significatione dissimilibus similitudinibus
+          reformant secundum dictas causas. Neque enim neque nos ad inquisitionem quidem ex
+          dubitatione ad sursumactionem per diligentem sanctorum perscrutationem venissemus, nisi
+          nos deformitas turbasset angelorum manifestative reformationis non dimittens nostram
+          mentem permanere in dissonantibus formationibus sed luctans ut recusentur materiales ad
+          aliquid passiones et adsuefaciens sancte extendi per apparentia ad supermundanas sursum
+          actiones.
+        </p>
+        <p xml:id="pdah-c2-d1e161">
+          Tanta quidem a nobis dicta sunt propter materiales et a significatione dimoventes
+          sanctorum eloquiorum angeliformes ymaginum scripturas. Deinde autem diffinire convenit
+          quid quidem ipsam esse Ierarchiam estimamus et quid unaqueque earum iuvat Ierarchiam
+          sortitos. Dux autem sit sermonis Christus, si est fas dicere, meus, qui est omnis
+          yerarquice manifestationis inspiratio. Tu autem, o puer, secundum sanctam nostre
+          sacerdotalis traditionis legislationem et ipse, ut decet sanctum, audi sancte dicta,
+          divinus divinorum in doctrina factus, et mentis occulto sancta circumabscondens ab inmunda
+          multitudine ut uniformia custodi. Non enim fas est, ut eloquia dicunt, abicere ad porcos
+          intelligibilium margaritarum mundum et luciformem et pulchrificum ornatum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

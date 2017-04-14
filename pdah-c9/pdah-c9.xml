@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput nonum</title>
+        <author ref="#Dionysius">Pseudo-Dionysius</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do
+            Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="pdah-c9">
+        <head xml:id="pdah-c9-Hd1e126">Angelica Hierarchia, Caput nonum</head>
+        <head xml:id="pdah-c9-Hd1e129" type="question-title">De principatibus et archangelis et angelis et de postrema
+          ipsorum Ierarchia.</head>
+        <p xml:id="pdah-c9-d1e132">
+          Reliquus est nobis ad contemplationem sanctam ornatus, angelicas concludens Ierarchias,
+          qui ex deiformibus principatibus et archangelis et angelis exornatur. Et primas quidem
+          dicere necessarium reor, secundum quod est mihi possibile, sanctarum ipsorum nominationum
+          manifestationes. Significat enim celestium quidem principatuum deiformiter principale et
+          ducale in ordinatione sancta et principalibus convenientissima virtutibus et ad
+          superprincipalem principatum et ipsas totaliter esse conversas et alias principaliter
+          ducere, et ad illum ipsum, ut possibile est, formari, qui principatus facit principatum
+          bono ornatu virtutum.
+        </p>
+        <p xml:id="pdah-c9-d1e135">
+          Sanctorum autem archangelorum coordinata quidem celestibus principatibus. Est enim et
+          ipsorum et angelorum, sicut dixi, Ierarchia una et ornatus. Sed quoniam non est Ierarchia
+          nisi et primas habens et medias et ultimas virtutes, archangelorum sanctus ordo
+          communicative ierarchica medietate ab extremis circasumitur. Etenim sanctissimus
+          principatus communicat sanctis angelis. Hiis quidem, quoniam ad supersubstantialem
+          principatum principaliter est conversus, et ad ipsum, sicut est possibile, reformatur. Et
+          angelos unum facit secundum bene ornatos ipsius et ordinatos et invisibiles ducatus.
+          Illis autem, quoniam et ypotethice est ordinationis thearchicas illuminationes
+          ierarchice per primas virtutes suscipiens, et angelis ipsas boniformiter nuntians, et
+          per angelos nobis manifestans, secundum sanctam uniuscuiusque illuminatorum divinitus
+          proportionem. Etenim angeli, sicut prediximus, completive terminant totos celestium
+          mentium ornatus, secundum hoc quod ultimam, sicut in celestibus substantiis habent
+          angelicam proprietatem, et magis a nobis angeli, quam priores manifestativi propriorum
+          proprie nominati et manifestius ipsis est Ierarchia et magis circa mundana. Etenim
+          supremum, sicut dictum est, ornatum, sicut occulto prima ordinatione propinquantem,
+          occultius arbitrandum est ierarchice secundum regere. Secundum autem, qui completur ex
+          sanctis dominationibus et virtutibus et potestatibus, principatuum et archangelorum et
+          angelorum Ierarchiam ducere. Prima quidem Ierarchia manifestius. Illam autem que est
+          post ipsam, occultius.
+        </p>
+        <p xml:id="pdah-c9-d1e138">
+          Principatuum vero et archangelorum et angelorum manifestativum ornatum humanis Ierarchiis
+          per se invicem presidere, quatenus sit, secundum ordinem, ad Deum sursumactio et conversio
+          et communio et unitio. Et quidem a Deo est omnibus Ierarchiis, ut decet bonos, inditus et
+          communicative superveniens et cum bono ornatu sanctissimus processus. Inde theologia
+          nostram Ierarchiam angelis attribuit principem populi Iudaici Michaelem nominans, et alios
+          gentium aliarum. Statuit enim altissimus terminos gentium iuxta numerum angelorum Dei.
+        </p>
+        <p xml:id="pdah-c9-d1e142">
+          Si autem aliquis dicat: et quomodo hebreorum populus sursumagebatur solus ad thearchicas
+          illuminationes? Etiam respondendum quod non angelorum rectos principatus accusari convenit
+          de aliarum gentium ad non existentes deos aberratione, sed ipsos illos propriis motibus ex
+          sursumactione recta ad divinum decidentes amore sui et superbia et eorum que ipsis
+          apparebant Deum decentia, irrationabiliter veneratione. Affirmatur autem testimonio hoc et
+          ipse hebreorum populo pertulisse. Cognitionem enim Dei, dicit, abiecisti et post cor tuum
+          perrexisti. Neque enim coactam habemus vitam, neque propter provisorum liberam potestatem
+          divina lumina provisive illuminationis hebetantur, sed intellectualium visionum
+          dissimilitudo superplenam paterne bonitatis luminis donationem, aut omnino non
+          participabilem facit, et ad ipsarum circumformationem distribui non valentem, aut
+          participationes facit differentes parvas aut magnas, obscuras aut claras, unius et
+          simplicis et semper eodem modo se habentis et supersimplificati fontani radii.
+        </p>
+        <p xml:id="pdah-c9-d1e145">
+          Etenim quod et aliis gentibus, ex quibus et nos respeximus, in illud ab omnibus paratum
+          ad traditionem apertum thearchici luminis et infinitum et copiosum pelagus, non alienigene
+          quidem presidebant dii. Unum autem omnium principium et ad hoc sursumagebant sequentes,
+          qui secundum unamquamque gentem Ierarchiam obtinebant angeli. Melchisedech est
+          attendendus, ierarcha existens Dei amantissimus, nequaquam non existentium sed vere
+          existentis altissimi Dei. Etenim non simpliciter Melchisedech Deum sapientes, nec amicum
+          Dei tantum, sed et sacerdotem Dei vocaverunt, vere ut habentibus Dei prudentiam aperte
+          significent quod non solum ipse ad vere existentem Deum erat conversus sed et aliis sicut
+          ierarcha ducatum prebebat ad veram et solam thearchicam reductionem.
+        </p>
+        <p xml:id="pdah-c9-d1e148">
+          Hoc autem et tue ierarchice prudentie rememorabimus quod et Pharaoni ab angelo Egyptiis
+          presidente et babiloniorum principi proprie et omnium providentie et dominationis
+          curativum et potestativum secundum visiones deferebatur, et gentibus illis veri Dei
+          famulis duees erant constituti formatarum ab angelis visionum, manifestationis angelorum
+          proximis sanctis viris Danieli et Ioseph ex Deo per angelos revelate. Unum enim est omnium
+          principium et providentia, et nunquam arbitrandum est Iudeis quidem quasi sortis
+          participatione principari thearchiam. Angelos autem proprie, aut equo honore, aut
+          opposite, aut deos quosdam alios presidere aliis gentibus.
+        </p>
+        <p xml:id="pdah-c9-d1e151">
+          Sed et eloquium illud secundum hanc sanctam intentionem est accipiendum, non sicut
+          partito Deo cum aliis diis aut angelis nostrum principatum, et ab Israel in gentis
+          principem et gentis auctorem hereditate possesso, sed quod ipsa quidem una universorum
+          altissimi providentia omnes homines salutarie propriorum angelorum suscitativis
+          manuductionibus distribuit: solus autem pene preter omnes Israel ad veri Dei luminis
+          donationem et cognitionem sit conversus. Unde theologia ipsum quidem hereditate possessum
+          Israel, ad veri Dei famulatum manifestans, factus est pars domini, dicit. Monstrans autem
+          et ipsum equaliter ut reliquas gentes attributum esse cuidam angelorum sanctorum, ad hoc
+          quod per ipsum unum universorum principium cognosceret, Michaelem dixit iudeorum ducem
+          esse populi plane nos docens unam esse totarum providentiam universam invisibilium et
+          visibilium virtutum supersubstantialiter supercollocatam. Omnes autem secundum unamquamque
+          gentem presidentes angelos, ad ipsam sicut proprium principium sequentes, voluntarie iuxta
+          virtutem extendentes.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput primum</title>
+        <author ref="#Dionysius">Pseudo-Dionysius</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do
+            Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="pdah-c1">
+        <head xml:id="pdah-c1-Hd1e110">Angelica Hierarchia, Caput primum</head>
+        <head xml:id="pdah-c1-Hd1e129" type="question-title">
+          Quod omnis divina illuminatio secundum bonitatem varie ad provisa procedens manet simpla et non solum hoc sed etiam unum facit illuminata.
+        </head>
+        <p xml:id="pdah-c1-d1e132">
+          Omne datum bonum et omne donum perfectum desursum est descendens a patre luminum. Set et
+          cunctus a patre moto luminis apparitionis processus ad nos bonitatis dono veniens, rursus
+          sicut unum faciens virtus suscitative nos adimplet et convenit ad congregantis patris
+          unitatem et deificam simplicitatem. Etenim ex ipso omnia et ad ipsum, sicut sanctus dicit
+          sermo.
+        </p>
+        <p xml:id="pdah-c1-d1e135">
+          Igitur Ihesum invocantes quod est paternum lumen, quod est quod verum est quod illuminat
+          omnem hominem venientem in hunc mundum, per quem ad principem luminis patrem adductionem
+          habuimus, ad sanctissimorum eloquiorum a patribus traditas illuminationes, sicut possibile
+          est, respiciamus, et ab ipsis significative nobis et sursum active manifestas celestium
+          mentium ierarchias, sicut potentes sumus, inspiciamus. Et principalem et superprincipalem
+          thearchici patris luminis donationem que angelorum nobis informativis signis manifestat
+          beatissimas ierarchias, immaterialibus et non trementibus mentis oculis intus
+          suscipientes, rursus ex ipsa ad simplicem ipsius suscitemur radium. Etenim non ipsa
+          aliquando a propria singulari unitate relinquitur sed ad sursumactionem et unificam
+          provisorum coniunctionem, ut decet, bonam multiplicata et procedens, manet intra se ipsam
+          fixe in inmobili ydemptitate singulariter fixa, et ad ipsam, sicut fas est, respicientes,
+          iuxta proportionem suam extendit et unum facit secundum simplificativam ipsius
+          unitionem.
+        </p>
+        <p xml:id="pdah-c1-d1e138">
+          Etenim neque possibile est aliter nobis supersplendere thearchicum radium nisi varietate
+          sanctorum velaminum sursumactive circumvelatum et hiis que secundum nos providentia
+          paterna connaturaliter et familiariter apparatum. Quapropter et sanctissimam nostram
+          Ierarchiam perfectionis principis sancta positio celestium Ierarchiarum supermundana
+          inmitatione dignata et dictas inmateriales Ierarchias materialibus figuris et formativis
+          compositionibus varians tradidit, ut, iuxta proportionem nostri ipsorum, a sanctissimis
+          formationibus ad simplices et non formabiles reducamur sursumactiones et
+          assimilationes.
+        </p>
+        <p xml:id="pdah-c1-d1e142">
+          Quoniam neque possibile est nostre menti ad immaterialem illam sursum excitari celestium
+          Ierarchiarum et inmitationem et contemplationem, nisi secundum se materiali manuductione
+          utatur, apparentes quidem pulchritudines, non apparentis decoris, imagines reputans; et
+          sensibiles bonos odores, expressiones intelligilis distributionis et immaterialis luminis
+          donationis imagines materialia lumina et secundum mentem contemplative adimpletionis
+          distributivas et sanctas disciplinas; et convenientis ad divina et ordinati habitus
+          ornatuum, qui sunt ordinationes et Ihesu participationis divinissime eucharistie
+          assumptionem et quecumque alia celestibus quidem substantiis supermundane, nobis autem
+          significative, tradita sunt.
+        </p>
+        <p xml:id="pdah-c1-d1e145">
+          Huius igitur gratia nostre secundum proportionem deificationis benignus perfectionis
+          principatus, et celestes Ierarchias nobis manifestans, et cooperatricem ipsarum faciens
+          nostram Ierarchiam, secundum virtutem nostram assimilatione deiformis ipsarum
+          sanctificationis sensibilibus ymaginibus supercelestes descripsit mentes in sancte
+          scriptis eloquiorum compositionibus, quatenus nos agat per sensibilia ad intelligibilia et
+          ex sancte formatis signis ad simplices celestitium Ierarchiarum summitates.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

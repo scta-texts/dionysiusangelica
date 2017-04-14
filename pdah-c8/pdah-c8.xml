@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput octavum</title>
+        <author ref="#Dionysius">Pseudo-Dionysius</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do
+            Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="pdah-c8">
+        <head xml:id="pdah-c8-Hd1e110">Angelica Hierarchia, Caput octavum</head>
+        <head xml:id="pdah-c8-Hd1e129" type="question-title">De dominationibus et virtutibus et potestatibus et de media
+          eorum Ierarchia.</head>
+        <p xml:id="pdah-c8-d1e132">
+          Transeundum autem nunc est ad medium celestium mentium ornatum, dominationes illas
+          supermundanis oculis, sicut est possibile, inspicientibus, et vere potentes visiones
+          divinarum potestatum et virtutum. Etenim unaqueque supersubstantiarum nominatio Dei
+          inmitativas ipsarum significat deiformes proprietates. Igitur sanctarum quidem
+          dominationum manifestativam nominationem arbitror monstrare non servilem quandam et ab
+          omni pedestri subiectione liberam sursumactionem nulla tyrannicarum dissimilitudinum,
+          nullo modo universaliter inclinatam, ipsam, ut decet, liberam sicut duram severam
+          dominationem super omnem minoraturam servitutem positam, irremisibilem ad subiectionem
+          omnem, segregatam ab universa dissimilitudine veram dominationem et dominationis
+          principatum indesinenter desiderantem, et ad ipsius propriam comparabilitatem, sicut est
+          possibile, et ad se ipsam et ea que sunt post ipsam, boniformiter formantem, ad nullum
+          vane apparentium sed aliquid proprie existens totaliter conversam et deiformitate
+          principis dominationis semper participante secundum quod est ipsi possibile.
+        </p>
+        <p xml:id="pdah-c8-d1e135">
+          Sanctarum autem virtutum virilem quandam et inconcussam fortitudinem ad omnes secundum
+          deiforme ipsarum operationes, ad nullam susceptionem inditarum ipsi thearchicarum
+          illuminationum debiliter infirmatam, potenter ad Dei inmitationem actam non derelinquentem
+          ipsius timiditate deiformem motum, sed firme inspicientem ad supersubstantialem et
+          virtutem facientem virtutem et eius ymaginem virtutiformem, secundum quod est possibile,
+          factam, et ad ipsam quidem sicut principem virtutum fortiter conversam, ad secunda autem
+          dono virtutis deiformiter procedentem.
+        </p>
+        <p xml:id="pdah-c8-d1e138">
+          Sanctarum autem potestatum coordinatam divinis dominationibus et virtutibus bene ornatam
+          et incommixtam circa divinas susceptiones bonam ordinationem, et ordinatum supermundane et
+          intellectualis potestatis, non tirannice ad deteriora potestativis virtutibus abutentis,
+          sed potenter ad divina cum bona ordinatione et sursumacte et eas que sunt post ipsam,
+          boniformiter sursumagentis et ad potestatem facientem potestatis principatum, sicut est
+          fas, assimilate, et hunc, ut est possibile angelis, splendere facientis in bene ornatis
+          secundum ipsum ordinibus potestative virtutis. Has habens deiformes proprietates, medius
+          celestium mentium ornatus, purgatur quidem et illuminatur et perficitur secundum quem
+          dictum est modum a thearchicis illuminationibus et inditis ipsi secundario per primum
+          ierarchicum ornatum et per medium illum secunda luculentia delatis.
+        </p>
+        <p xml:id="pdah-c8-d1e142">
+          Igitur per alium dictum ire ad alium auditum, signum faciamus a longe misse et per
+          processum obscurate ad secundationem perfectionis. Etenim sicut sapientes circa nostras
+          sanctas perfectiones dicunt, per se apparentes divinorum adimpletiones, eis per alias Dei
+          inspectivas participationes esse perfectiores, ita arbitror et angelicorum ordinum
+          inmediatam participationem, qui primo ad eum extenduntur, manifestatiorem esse per
+          medietatem perfectis. Quapropter et a sacerdotali nostra traditione perfective et
+          illuminative et purgative virtutes proprie mentes nominantur subiectorum, sicut per ipsas
+          ad omnem supersubstantialem principatum sursumactarum et teletarchiarum purgationum et
+          illuminationum et perfectionum in participatione, secundum quod est ipsis fas, factarum.
+          Hoc enim est universaliter divino principi ordinum, ut decet Deum, decretum per prima et
+          secunda thearchicis participare illuminationibus. Invenies autem hoc in multis locis a
+          theologis manifestatum.
+        </p>
+        <p xml:id="pdah-c8-d1e145">
+          Igitur quando divina et paterna benignitas, que Israel conversive ad sanctam ipsius
+          salvationem castigavit, et punientibus et inhumanis gentibus ad correctionem dedit,
+          universali provisorum ad melius traductione et a captivitate relaxavit, et ad priorem
+          mansuete reduxit bonum affectum. Vidit theologorum unus Zacharias unum primorum, sicut
+          arbitror, et circa Deum angelorum (commune enim est, ut dixi, omnibus angelis nominari),
+          ab ipso Deo discentem de hoc consolatorios, ut dictum est, sermones. Alterum autem
+          subiectorum angelorum ad obviationem primi preambulantem, sicut ad illuminationis
+          susceptionem; postea vero ab ipso divinum consilium sicut ab ierarcha doctum et docere
+          theologum conversum quod fructuose habitabitur Ierusalem a multitudine hominum.
+        </p>
+        <p xml:id="pdah-c8-d1e148">
+          Alius autem theologorum Ezechiel, et ab ipsa, dicit hoc sanctissime decretum esse quod
+          supervenerat cherubin supergloriosa deitate. Etenim Israel, sicut dictum est, paterna
+          benignitas per disciplinam ad melius transducens, iustitia Deum decente, a puniendis
+          secerni non puniendos iudicavit. Hoc docetur primo post cherubin, qui lumbum saphyro erat
+          cinctus, qui poderem iuxta signum ierarchicum erat indutus. Reliquos autem angelos, qui
+          secures habebant, divinus ordinum principatus precipit a priori doceri de hoc divinum
+          iudicium. Huic enim dixit quidam, ut transiret per mediam Ierusalem et daret signum in
+          frontes non puniendorum virorum. Aliis autem: Ite in civitatem post illum et cedite et non
+          parcite oculis vestris. Ad omnes autem in quibus est signum ne appropinquetis.
+        </p>
+        <p xml:id="pdah-c8-d1e151">
+          Quid dicat aliquis de angelo qui dixit Danieli: Exivit sermo? aut de ipso primo qui ignem
+          ex medio cherubin accepit? aut, quod isto est habundantius ad bone ordinationis angelice
+          demonstrationem, quod cherubin immittant ignem in manus sanctam stolam induti?, aut de
+          illo qui vocavit divinissimum Gabrielem et dixit ipsi: Fac intelligere illum visionem? aut
+          quecumque alia a senctis theologis sunt dicta de celestium Ierarchiarum deiformi bono
+          ornatu? Ad quem Ierarchie nostre bona ordinatio est, secundum hoc quod est possibile,
+          assimilata et angelico decore sicut ymaginibus formata et per ipsum sursumacta ad
+          supersubstantialem universe ierarchice ordinationis principatum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput decimum quintum</title>
+        <author>Petrus Hispanus</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do
+            Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="pdah-c15">
+        <head xml:id="pdah-c15-Hd1e126">Angelica Hierarchia, Caput decimum quintum</head>
+        <head xml:id="pdah-c15-Hd1e129" type="question-title">Quid formative angelicarum virtutum ymagines, quid igneum, quid
+          humane forme, quid oculi, quid nares.</head>
+        <p xml:id="pdah-c15-d1e132">
+          Age igitur de cetero ad requiem ponentes nostrum, si videtur, intellectualem oculum de
+          angelos decente circa altas contemplationes fortitudine, ad divisibilem et multarum
+          partium latitudinem multiformis angelicarum formationum varietatis, descendentes rursus ab
+          ipsis sicut ab ymaginibus, ad simplicitatem celestium mentium resolutorie reflectamus.
+          Esto autem tibi precognitum quod sancte formatarum ymaginum repurgationes eosdem quandoque
+          celestium substantiarum ornatus ierarchice regentes significant. Et rursus ierarchice
+          rectos primos et eosdem, sicut dictum est, et primas et postremas habentes virtutes nulla
+          inconvenienti ratione male inducta secundum talem reserationum modum. Si enim ierarchice
+          regi quidem quosdam a prioribus diceremus, postea eosdem ierarchice regentes, et priores
+          rursus ierarchice presidentes postremis, et ierarchice rectos ab ipsis, illis ierarchice
+          gubernatis, vere inconveniens esset quod fieret, et confusione quidem multa plenum. Si
+          autem eosdem ierarchice regere et ierarchice regi dicimus, non adhuc autem eosdem aut ab
+          eisdem, sed ipsum unumquenque ierarchice quidem regi a prioribus, ierarchice autem regere
+          postremos, non inconvenienter aliquis dicat in eloquiis sancte formatas formationes easdem
+          aliquando posse et primis et postremis et mediis virtutibus et familiariter et vere
+          circumponi. Igitur et ad superius conversive extendi et circa se ipsas fortiter convolvi
+          propriarum existentes servative virtutum et circa secunda conmunicativo processu provisive
+          ipsas in participatione virtutis esse, omnibus sine mendatio conveniet celestibus
+          substantiis, quamvis istis quidem superposite et totaliter, ut multotiens dictum est,
+          illis autem et particulariter et submisse.
+        </p>
+        <p xml:id="pdah-c15-d1e135">
+          Incipiendus est autem sermo, et querendum in prima formarum reformatione propter quam
+          causam theologia pene preter omnes invenitur honorans igneam sanctam descriptionem.
+          Invenis igitur ipsam non solum rotas igneas formantem, sed animalia ignita, et viros sicut
+          fulgurantes, et circa ipsas celestas substantias cumulos carbonum ignis circumponentes, et
+          fluvios inmensurabili sonitu ignis flagrantes. Sed et thronos dicit igneos esse et ipsos
+          supremos seraphin incendentes existentes ex nominatione significat. Et ignis proprietatem
+          et operationem ipsis attribuit et totaliter sursum et deorsum igneam honorat eminenter
+          forme actionem. Igitur igneum quidem significare arbitror celestium mentium
+          deiformissimum. Etenim sicut theologi supersubstantialem et non formabilem substantiam in
+          igne multis in locis describunt, sicut habentes multas thearchice, si est fas dicere,
+          proprietatis sicut invisibilibus, ymagines.
+        </p>
+        <p xml:id="pdah-c15-d1e138">
+          Etenim sensibilis ignis quidem, ut dicatur ita, in omnibus et por omnia munde venit, et
+          segregatur ab omnibus, et omnino splendens existens simul, et sicut occultus, ignotus ipse
+          secundum se ipsum, non proposita materia ad quam manifestat propriam operationem et non
+          valens teneri et incontemplabilis, per se superans universa, et ea in quibus ingignitur,
+          ad propriam agens operationem, variativus, traditivus sui ipsius omnibus quocumque modo
+          appropinquantibus, renovativus, non circumvelatus illuminationibus, inconprehensibilis,
+          mundus, discretivus, invariabilis, sursumferens, acute pergens, altus, nullam recipiens
+          pedestrem subiectionem, semper mobilis, motivus aliorum, comprehensivus,
+          inconprehensibilis, non indigens altero, latenter augmentativus sui ipsius, et ad
+          susceptivas materias manifestans sui ipsius magnitudinem, activus, potens, universis
+          presens invisibiliter, neglectus, non esse apparens. Contritione autem quemadmodum quadam
+          inquisitione connaturaliter et proprie subito manifestatus, et rursus inconprehensibiliter
+          inpalpabilis, non minorabilis in omnibus ipsius ditissimis traditionibus. Et multas alias
+          quis inveniat ignis proprietates familiares, sicut in sensibilibus ymaginibus, thearchice
+          operationis.
+        </p>
+        <p xml:id="pdah-c15-d1e142">
+          Hec igitur scientes Deum sapientes, celestes substantias ex igne formant, significantes
+          ipsarum deiforme; et, sicut est possibile, est Dei inmitativum. Sed et humaniformes ipsas
+          describunt et propter intellectuale: et quia ad superius habent inspectivas virtutes et
+          propter figure rectum et erectum et secundum naturam principale et ducativum et secundum
+          sensum quidem minimum sicut ad reliquas irrationabilium animalium virtutes. Superativum
+          autem cunctorum mentis secundum habundantiam virtute et secundum rationabilem scientiam
+          obtinendi potestate et secundum naturam anime liberum et non valens teneri. Est autem et
+          secundum unumquodque, sicut estimo, corporalis nostre partium multitudinis ymagines
+          convenientes invenire celestium virtutum, dicentes inspectivas quidem virtutes
+          significare, ad bona divina clarissimum respectum et rursus mollem et humidam et non
+          contraformatam, sed acute mobilem, et mundam, et apertam, inpassibiliter susceptionem
+          thearchicarum illuminationum. Olfabilium autem discretivas virtutes super mentem bene
+          olentis distributionis, sicut est possibile, receptivum et non talium in scientia
+          discretivum et totaliter effugitivum. Aurium autem virtutes participativum thearchice
+          inspirationis et cognitive susceptivum. Gustativas autem, intelligibilium alimentorum
+          adimpletionem et divinorum nutrivorum proventuum susceptivum. Tactivas autem, iuvantis
+          naturam aut ledentis in scientia discretivum. Palpebras autem et supercilia Dei
+          inspectivorum intellectuum servativum.
+        </p>
+        <p xml:id="pdah-c15-d1e145">
+          Adolescentis et iuvenis etatem quod convalescat semper vivifica virtus. Dentes autem
+          divisivum indite nutritive perfectionis. Unaqueque autem substantia intellectualis, datum
+          ipsi a diviniore uniformem intellectum provisiva virtute, dividit et multiplicat ad
+          indigentium sursumactionem secundum proportionem. Humeros autem et brachia et rursus manus
+          factivum et operativum et activum. Rursus autem cor signum esse deiformis vite propriam
+          vivificam virtutem boniformiter ad provisa disseminantis. Pectora autem rursus significare
+          indomabile et servativum, sicut in subiecto corde, vivifice distributionis. Dorsa vero
+          contentivum germinativarum universarum virtutum. Pedes autem motivum et acutum et velox et
+          ad divina ambulatione sempiterne motionis; propter quod et alatos theologia sanctarum
+          mentium figuravit pedes.
+        </p>
+        <p xml:id="pdah-c15-d1e148">
+          <unclear>Ala</unclear> enim significat sursumactivum acumen, et celeste, et ad superius
+          vie factivum, et ab omni terrestri propter sursumferens segregatum. Alarum vero levitas
+          secundum nichil terrenum sed totum munde et sine pondere ad altum redactum. Nudum vero et
+          discalciatum, demissum, et facile solvit, et non valens teneri et mundum ab exteriorum
+          additione et ad simplicitatem divinam assimilativum, sicut est possibile. Et quoniam
+          rursus simplex et multum varia sapientia, et nudos vestit et vasa quedam dat circumferre
+          ipsis. Age et celestium mentium sancta opertoria et instrumenta secundum quod est nobis
+          possibile, reseremus, et misteria. Etenim splendidam quidem vestem et igneam significare
+          arbitror deiforme, secundum ignis ymaginem, et illuminativum propter eas que sunt in celo,
+          quietes ubi est lumen et quod universaliter intelligibiliter est illucens aut
+          intellectualiter illuminatum. Sacerdotalem autem ad divinas et misticas voluntates
+          adductivum et quod est totius vite sanctificatum. Zonas vero germinativarum virtutum
+          servativum et congregativum ipsarum habitum ad se ipsum unitive fuisse conversum et in
+          circuitu cum bono ornatu non valente cadere ydemptitate circa se ipsum convolvi.
+        </p>
+        <p xml:id="pdah-c15-d1e154">
+          Rursus autem virgas, regale, et ducativum, et recte omnia terminans. Lanceas autem et
+          secures dissimilium divisivum et descretivarum virtutum acutum et operativum et activum.
+          Geometrica autem et architecti vasa fundativum et edificativum et perfectivum et quecumque
+          alia sursumactive et conversive sunt secundorum providentie. Est autem quando et in nos
+          divinorum iudiciorum sunt signa formata sanctorum angelorum instrumenta. Hiis quidem
+          monstrantibus correctivam disciplinam aut punientem iustitiam, illis autem ab angustia
+          liberationem, aut discipline finem, aut prioris boni affectus resumptionem, aut additionem
+          aliquorum donorum parvorum aut magnorum sensibilium aut intelligibilium. Et totaliter non
+          dubitet perspicax mens familiariter aptare non apparentibus apparentia. Ventos autem et
+          ipsos nominari velocem ipsorum significat et ad omnia fere transeuntem sine mora actionem
+          et a superioribus ad inferiora et rursus ex hiis que sunt infra, ad superius delativum
+          motum, extendentem quidem secunda ad superiorem altitudinem, moventem autem prima ad
+          communicativum et provisivum subiectorum processum.
+        </p>
+        <p xml:id="pdah-c15-d1e157">
+          Dicat autem aliquis aerei spiritus ventosam nominationem et deiforme celestium mentium
+          significare. Habet enim et hoc thearchice operationis ymaginem et formam, sicut in
+          Simbolica Theologia secundum quatuor elementorum repurgationem nobis per plura
+          demonstratum est, secundum nature motivam et germinativam et velocem et non valentem
+          teneri capacitatem et ignotam nobis et invisibilem occultationem motivorum principiorum et
+          terminationum. Non enim novisti, dicit, unde veniat aut quo vadat. Sed et nubis ipsis
+          speciem theologia circunformat, significans per hoc sanctas mentes occulto quidem lumine
+          supermundane adimpletas. Prius autem apparentem primam apparitionem sine pompa intus
+          suscipientes et hanc copisose ad secundam apparitionem et secundum proportionem
+          deferentes. Et quidem quod generativum et vivificativum et augmentativum et perfectivum
+          inest secundum intelligibilem ymbrium susceptibilem sinum humidis pluviis ad vivificas
+          parturitiones evocantem. Si autem et heris et electri et lapidum multorum colorum speciem
+          theologia celestibus substantiis circunponit: electrum quidem sicut auriforme simul et
+          argentiforme significat inputribilem sicut in auro et inconsumptibilem et inminorabilem et
+          immaculatum splendorem, et splendidam sicut in argento et luciformem et celestem
+          claritatem; heri autem secundum assignatas rationes aut igneum aut auriforme est
+          attribuendum. Lapidum autem multorum colorum visiones significare arbitrandum est, aut
+          sicut albas luciforme, aut sicut rubeas igneum, aut sicut flavas auriforme, aut sicut
+          palidas iuvenile et convalescens, et secundum unamquamque speciem invenies sursumactivam
+          formativarum ymaginum repurgationem.
+        </p>
+        <p xml:id="pdah-c15-d1e160">
+          Sed quoniam ista secundum virtutem a nobis sufficienter dicta esse arbitror, transeundum
+          est ad sanctam reserationem celestium mentium sancte formate ferine formationis. Et leonis
+          quidem formam significare putandum est ducativum et forte et indomabile et ad occultum
+          ineffabile thearchie secundum virtutem assimilationum intellectualium vestigiorum
+          circunvelatione et mistico et non pomposo operimento secundum divinam illuminationem et
+          mistico ad ipsam suscitative ambulationis. Bovis autem forte et convalescens et
+          intellectuales sulcos incidens et ad susceptionem celestium et germinativorum imbrium; et
+          cornua, servativum et robustissimum. Aquile autem, regale et alte ambulans et velociter
+          volans et ad virtutem faciens alimentum, acutum et sobrium et bene currens et ingeniosum
+          et ad copiosum multi luminis radium thearchice solaris emissionis in conspectivarum
+          virtutum sanissimis suscitationibus sine impedimento secundum rectum et indeclinabiliter
+          contemplativum. Equorum autem, obediens et frenabile et alborum quidem existentium
+          splendidum et quam maxime divini luminis cognatum; nigrorum vero existendum occultum;
+          rubeorum autem igneum et activum; conmixtorum autem ex albo et nigro delativa virtute
+          extremorum coniunctivum et prima secundis conversive aut provisive.
+        </p>
+        <p xml:id="pdah-c15-d1e164">
+          Set nisi ad sermonis contenderemus conmensurationem et particulares dictorum animalium
+          proprietates et corporales omnes ipsorum formationes adaptavissemus quidem, non
+          inconvenienter celestibus virtutibus secundum dissimiles similitudines, furibundum quidem
+          ipsorum ad intellectualem fortitudinem, cuiusmodi est ultima furor resonantia. Rursus
+          autem concupiscentiam ad divinum amorem et, ut summatim dicatur, universos irrationabilium
+          animalium et sensus et multiplicitatem partium ad inmateriales celestium intellectus et
+          uniformes virtutes reducentes. Sufficiunt autem sapientibus non ista solum sed et unius a
+          significatione recedentis ymaginis repurgatio ad proximorum eiusdem modi
+          manifestationem.
+        </p>
+        <p xml:id="pdah-c15-d1e167">
+          Inspiciendum autem, et fluvios dictos esse, et rotas, et currus coniunctos in celestibus
+          substantiis. Etenim ignei quidem fluvii significant thearchicos proventus copiosam ipsius
+          et indeficientem affluentiam largientes et vivifice nutritivos generabilitatis. Currus
+          autem coniunctivam coordinatorum communionem. Rote vero alate quidem existentes et ad
+          interiora sine conversione et indeclinabiliter procedentes secundum rectam et erectam viam
+          ambulative ipsorum operationis, virtutem ad eandem indeclinabilem et recte sectam viam
+          universam ipsorum intellectuali rotatione supermundane directa. Est autem et secundum
+          aliam sursumactionem repurgare intelligibilium rotarum ymaginis descriptionem. Vocatum est
+          enim nomen ipsis, ut dicit theologus, Gel Gel Gel. Significat autem secundum hebraicam
+          vocem revolutiones et revelationes. Ignee namque et deiformes rote, revolutiones quidem
+          habent circa idem bonum semper mobili motu. Revelationes autem occultorum manifestationes
+          et humilium sursumactionem et sublimium illuminationem ad subiecta depositiva
+          delatione.
+        </p>
+        <p xml:id="pdah-c15-d1e170">
+          Reliquus nobis est ad manifestotionem de gaudio celestium ornatuum sermo. Etenim non
+          susceptibiles omnino sunt nostre passibilis delectationis. Congaudere autem Deo dicuntur
+          perditorum inventione secundum deiformem epulationem et in providentia et salvatione ad
+          Deum conversorum boniformem et copiosam exultationem et bonum affectum illum ineffabilem
+          in cuius participatione multotiens facti sunt et viri sancti secundum deificos divinarum
+          illuminationum superadventus. Tanta a me et de sanctis reformationibus sunt dicta, a
+          diligente quidem ipsarum manifestatione deficientia. Conferentia autem, sicut arbitror, ad
+          hoc ut non humiliter nos remaneamus in formativis fantasiis. Si autem et hoc dicas quod
+          non omnium consequenter angelicarum in eloquiis virtutum aut operationum aut ymaginum
+          fecimus mentionem, respondemus hoc verum, quoniam supermundanorum quidem scientiam
+          ignoravimus. Et magis in ipsis nos alio docente indigemus. Eandem autem virtutem predictis
+          pretemisimus. Et conmensurationem sermonis providentes. Et super nos occultum silentio
+          venerantes.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

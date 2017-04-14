@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput quartum</title>
+        <author>Pseudo-Dionysius</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do
+            Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="pdah-c4">
+        <head xml:id="pdah-c4-Hd1e126">Angelical Hierarchia, Caput quartum</head>
+        <head xml:id="pdah-c4-Hd1e129" type="question-title">Quid significat angelorum nominatio</head>
+        <p xml:id="pdah-c4-d1e132">
+          Igitur Ierarchia, quodcumque est, ut estimo, bene a nobis est diffinita. Angelica
+          Ierarchia deinceps est laudanda et sancte ipsius in eloquiis formationes supermundanis
+          oculis inspiciende, quatenus sursumagamur ad deiformissimam ipsarum simplicitatem per
+          misticas reformationes et universe ierarchice principium scientie laudemus et Deum decente
+          veneratione et teletarchicis gratiarum actionibus. Primum universorum illud dicere verum,
+          quod cum bonitate omni supersubstantialis thearchia existentium essentias subsistere
+          fecit, ad esse deduxit. Est enim omnium cause et super omnia bonitatis proprium ad
+          communionem sui ipsius existentia vocare, sicut unicuique existentium diffinitum est a
+          propria proportione.
+        </p>
+        <p xml:id="pdah-c4-d1e135">
+          Ergo cuncta quidem existentia participant providentia ex supersubstantiali et omnium
+          causa deitate emanante. Non enim essent nisi existentium essentia et principio
+          participavissent. Igitur inanimata per esse ipsa participant. Etenim esse omnium est, que
+          super esse est deitas. Viventia autem eiusdem super omnem vitam vivifica virtute.
+          Rationalia vero et intellectualia eiusdem super omnem et rationem et mentem, per se
+          perfecta et preperfecta sapientia. Manifestum autem quod circa ipsam ille substantiarum
+          sunt, quecumque in pluribus ipsa participaverunt. Igitur sancti celestium substantiarum
+          ornatus, super solum existentia et irrationabiliter viventia, et ea que, secundum nos,
+          rationalia, thearchice traditionis in participatione sunt. Etenim intelligibiliter ad Dei
+          inmitationem se ipsos reformantes, et ad thearchicam comparabilitatem supermundane
+          videntes et formare desiderantes intellectualem suam speciem, copiosiores convenienter
+          habent et ad ipsam communiones, attenti manentes et semper ad superius, sicut est fas, in
+          fortitudine divini et indeclinabilis amoris extenti, et principales illuminationes et
+          inmaterialiter et munde intus suscipientes, et ad ipsas ordinati, et intellectualem
+          habentes omnem vitam.
+        </p>
+        <p xml:id="pdah-c4-d1e138">
+          Igitur ipsi sunt qui et primo et in pluribus in participatione divini sunt facti, et in
+          primo et in pluribus manifestativi thearchici occulti. Quapropter et preter omnia angelica
+          nominatione excellenter sunt digni habiti, idcirco quod primo ad ipsos ingignitur
+          thearchica illuminatio et per ipsos ad nos deferuntur ille que super nos sunt,
+          manifestationes. Ita igitur lex, sicut theologia dicit, per angelos donata est nobis.
+          Gloriosos autem et ante legem et post legem patres nostros angeli ad divinum
+          sursumagebant, aut ad id quod est agendum, ducentes, et ad rectam veritatis viam ex errore
+          et vita inmunda reducentes, aut ordines sanctos aut misteriorum supermundanorum occultas
+          visiones aut divinas quasdam prenuntiationes, ypothethice manifestationes. Docet autem hoc
+          sapienter theologia per angelos ipsam ad nos pervenire, sicut ex Deo nominato ordine illud
+          lege reponente per prima secunda ad divinum sursumagi.
+        </p>
+        <p xml:id="pdah-c4-d1e142">
+          Si autem aliquis dicat, per se sine medio fieri
+          quibusdam sanctorum Dei apparitiones, discat et hoc sapienter ex sanctissimis eloquiis
+          quod ipsum quidem quodcumque est Dei occultum, nullus vidit neque videbit. Dei autem
+          apparitiones sanctis facte sunt secundum convenientes Deo per quasdam quidem sanctas et
+          videntibus proportionales visionum manifestationes. Omnisapiens autem theologia visionem
+          illam, que in ipsa descripta est, manifestavit divinam sicut in formatione non formabilium
+          similitudinem, ex videntium ad divinum sursumactione, convenienter vocat Dei apparitionem
+          sicut per ipsam videntibus divina facta illuminatione et aliquid divinorum ipsis sancte
+          edoctis. Has autem divinas visiones gloriosi patres nostri docebantur per medias celestes
+          virtutes. Aut numquam non et sanctam legislationem eloquiorum traditio sicut per se quidem
+          dicit ex Deo Moysi datam, quatenus nos vere doceat, divine ipsam esse et facte
+          subformationem.
+        </p>
+        <p xml:id="pdah-c4-d1e145">
+          Etenim non solum in superpositis et subiectis mentibus sed et in his que sunt eiusdem
+          ordinis, ista lex diffinita ab omnium supersubstantiali ordinationis principatu secundum
+          unamquamque Ierarchiam primos et medios et ultimos esse et ordines et virtutes et minorum
+          esse diviniores magistros et manuductores in divinam adductionem et illuminationem et
+          communionem. Video autem quod et divinum Ihesu benignitatis misterium angeli primum docti
+          sunt, postea per ipsum ad nos cognitionis gratia transivit. Sic ergo divinissimus Gabriel
+          Zachariam quidem ierarcham docebat prophetam futurum esse ex ipso preter spem gratia
+          divina gignendum puerum, eius que, ut decet bonos, et salvatorie mundo erat manifestanda
+          virilis Ihesu Dei formationis misterium. Alter autem angelorum Ioseph docuit quod vere
+          adimpleta sunt divinitus promissa progenitori David. Alius autem pastoribus sicut a multis
+          recessione et silentio purgatis evangelizavit, et cum ipso multitudo exercitus celestis
+          multum laudabilem illam tradidit existentibus in terra glorificationem.
+        </p>
+        <p xml:id="pdah-c4-d1e148">
+          Respiciam autem et ad supremas eloquiorum luminis apparitiones. Video enim quod et ipse
+          Ihesus supercelestium substantiarum supersubstantialis substantia, ad nostrum
+          intransmutabiliter veniens, non resilit ab ordinata et electa hominibus conveniente bona
+          ordinatione, sed obedienter subicitur patris et Dei per angelos formationibus, et per
+          medios ipsos nuntiatur Ioseph a patre dispensata Ihesu ad Egyptum recessio, et rursus ad
+          Iudeam ex Egypto manuductio, et per angelos ipsum videmus sub paternis legislationibus
+          ordinatum. Dimitto enim dicere, sicut scienti sacerdotalibus nostris traditionibus
+          manifestata et de angelo qui confortavit Ihesum aut quod et ipse Ihesus secundum nostram
+          salutarem boni operationem ad manifestativum veniens ordinem, angelus magni consilii est
+          appellatus. Etenim, sicut ipse dicit, ut decet angelum: quecumque audivit a patre,
+          annuntiavit nobis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

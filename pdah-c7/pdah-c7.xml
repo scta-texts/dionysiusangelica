@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput septimum</title>
+        <author ref="#Dionysius">Pseudo-Dionysius</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do
+            Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="pdah-c7">
+        <head xml:id="pdah-c7-Hd1e126">Angelica Hierarchia, Caput septimum</head>
+        <head type="question-title" xml:id="pdah-c7-Hd1e129">De seraphin, et cherubin, et thronis.</head>
+        <p xml:id="pdah-c7-d1e132">
+          Hanc nos recipientes sanctarum Ierarchiarum ordinationem dicimus quod omnis celestium
+          nominatio manifestationem habet uniuscuiusque deiformis proprietatis. Et sanctam quidem
+          seraphin nominationem dicunt ii qui hebreorum sunt scientes, aut incendentes significare
+          aut calefacientes. Cherubin vero multitudinem cognitionis aut effusionem sapientie.
+          Convenienter igitur prima celestium Ierarchiarum ex supernis substantiis sanctificatur,
+          ordinem habens omnibus altiorem, eo quod circa Deum sine medio collocatur, et prius
+          operantes Dei apparitiones et perfectiones ad ipsam sicut proximam principalius
+          deferuntur.
+        </p>
+        <p xml:id="pdah-c7-d1e135">
+          Calefacientes igitur nominantur et throni et effusio sapientie, manifestativo deiformium
+          habituum ipsorum nomine. Etenim semper mobile quidem ipsorum circa divina et indesinens et
+          calidum et acutum et superfervens attente et irremisibilis et indeclinabilis sempiterne
+          motionis et subiectorum sursumactive et operative assimilativum, sicut fervere faciens
+          illa et resuscitans ad similem caliditatem et incensive et holocaustice purgativum et non
+          circumvelatam et inextinguibilem habentem eodem modo semper luciformem et illuminativam
+          proprietatem omnis obscure obtenebrationis expulsivam existentem et destructivam seraphin
+          nominationis manifestatio docet.
+        </p>
+        <p xml:id="pdah-c7-d1e138">
+          Cherubin vero, cognitivum ipsorum, et Dei inspectivum, et luminis donationis susceptivum
+          et contemplativum in prius operante virtute thearchici decoris, et sapientifica
+          distributione repletum, et communicativum copiose ad secunda effusioni donate sapientie.
+          Altissimorum autem thronorum et elevatorum, ab omni diligenter elevari pedestri
+          subiectione, et ad superius supermundane sursumferens, et ab omni extremitate
+          ineffabiliter sursum positum et circa vere altissimum totalibus virtutibus inconcusse et
+          stabiliter collocatum thearchici superadventus in impassibilitate omni et inmaterialitate
+          susceptivum, et deiferum, et familiariter ad divinas susceptiones aptum. Hec quidem
+          nominum ipsorum, sicut secundum nos, manifestatio. Dicendum autem quam Ierarchiam ipsorum
+          extimamus. Etenim universe Ierarchie intentionem a Dei inmitativa deiformitate dependentem
+          ineffabiliter esse, et dividi omne ierarchicum negotium in participationem sanctam et
+          traditionem purgationis munde, et divini luminis, et perfective scientie sufficienter iam
+          a nobis dictum esse reor.
+        </p>
+        <p xml:id="pdah-c7-d1e142">
+          Nunc autem opto dicere digne de supremis mentibus quomodo secundum ipsas Ierarchia per
+          eloquia manifestatur. In primis substantiis que post substantificam ipsarum thearchiam
+          collocate sunt in vestibulis eius ordinate omnem invisibilem et visibilem supergresse sunt
+          factam virtutem, primam arbitrandum est esse et secundum omnem conformem Ierarchiam.
+          Igitur mundas quidem ipsas esse arbitrandum est, non sicut ab inmundis maculis et
+          inquinationibus liberatas, neque sicut materialium susceptivas fantasiarum sed sicut omni
+          subiectione munde altiores et omni subtusveniente sancto secundum supremam castitatem
+          super omnes deiformissimas virtutes collocatas, et a proprio per se mobili, et eodem modo
+          mobili secundum in amore Dei inconversibile ordinis ineffabiliter optentas et ad deteriora
+          secundum aliquid minorationem neque totaliter scientes sed non occiduam semper et
+          intransmutabilem propriam deiformis proprietatis mundissimam collocationem.
+        </p>
+        <p xml:id="pdah-c7-d1e145">
+          Contemplativas autem rursus, non sicut sensibilium signorum intelletuabiliter
+          contemplatrices, neque sicut varietate sancte scripture contemplationis ad divinissimum
+          sursumactas, sed sicut omnis inmaterialis cognitionis altiori lumine adimpletas, et
+          pulchrifice et principalis pulchritudinis supersubstantialis et trine lucentis
+          contemplatione, sicut est fas, repletas. Ihesu autem communione similiter dignas habitas,
+          non ymaginibus sancte formationis, formative designantibus deificam similitudinem, sed
+          sicut vere ipsi propinquantes in propria participatione cognitionis deificorum ipsius
+          luminum, et quod quidem Dei inmitativum ipsis supreme datum est, et communicant secundum
+          quod est ipsis possible, in prius operante virtute, deificis ipsius et benignis
+          virtutibus.
+        </p>
+        <p xml:id="pdah-c7-d1e148">
+          Perfectas autem similiter, non sicut varietatis sancte resolutoria scientia illuminatas,
+          sed sicut propria et excedente deificatione adimpletas secundum supremam in angelis Dei
+          operationum scientiam. Non enim per alias sanctas substantias, sed ab ipsa thearchia sunt
+          thearchice gubernate, eo quod ad ipsam sine medio extenduntur, omni excedente virtute et
+          ordine et ad castissimum et secundum omne ineffabile collocantur et ad inmaterialem et
+          intelligibilem decorem, sicut est fas, ad contemplationem adducuntur et divinarum
+          operationum scientificas rationes, sicut prime, et circa Deum existentes, docentur ab ipsa
+          teletarchia supreme ierarchice gubernate.
+        </p>
+        <p xml:id="pdah-c7-d1e151">
+          Hoc igitur plane theologi monstrant, subiectos quidem celestium substantiarum ornatus a
+          supremis mentibus bene ornate doceri deificas scientias. Omnibus autem altiores ab ipsa
+          thearchia, sicut est fas, doctrinis illuminari. Etenim quasdam quidem ipsarum inducunt a
+          prioribus sancte doctas dominum esse celestium virtutum et regem glorie ad celos, ut decet
+          hominem, assumptum. Quasdam autem ad ipsum Ihesum questionem facientes et pro nobis ipsius
+          divine operationis scientiam discentes et ipsas ipsum Ihesum sine medio docentem et primo
+          dono ipsis manifestantem ipsum benignum beneficium. Ego enim, dicit, disputo iustitiam et
+          iudicium salutaris. Miror autem quod et celestium substantiarum prime et tantum universis
+          supposite thearchicas illuminationes sicut medie volentes reverenter desiderant. Etenim
+          non per se interrogant, quare tua rubra vestimenta, sed ad ipsas questionem faciunt prius,
+          monstrantes quidem quod discunt, et deificam cognitionem desiderant, sed non prosilientes
+          ab indita secundum divinum processum illuminatione.
+        </p>
+        <p xml:id="pdah-c7-d1e154">
+          Igitur prima celestium Ierarchia ab ipsa theletarchia ierarchice gubernata, eo quod ad
+          ipsam sine medio extenditur, castissima purgatione multo lumine preperfecta purgationis
+          operatione iuxta proportionem suam impleta purgatur et illuminatur et perficitur, ab omni
+          quidem subiectione munda. Primo autem lumine plena et primo date cognitionis et scientie
+          particeps perfecta. Comprehendens autem et hoc dicam non inconvenienter quod purgatio est
+          illuminatio et perfectio thearchice assumptio scientie, ab ignorantia quidem quasi
+          mundans, secundum ordinem indita cognitione perfectarum doctrinarum. Illuminans autem ipsa
+          divina cognitione per quam purgat eam que prius non inspexit quecumque nunc manifestantur
+          per altiorem illuminationem, et perficiens rursus ipso lumine secundum habitum scientia
+          luculentarum doctrinarum.
+        </p>
+        <p xml:id="pdah-c7-d1e157">
+          Igitur hic quidem est, secundum meam scientiam, primus celestium substantiarum ornatus in
+          circuitu Dei, et circa Deum sine medio stans, et simpliciter indesinenter ambiens eternam
+          ipsius cognitionem, secundum supremam ut in angelis semper mobilem collocationem, multas
+          quidem et beatas videns pure contemplationes, simplicibus autem et inmediatis splendoribus
+          illuminatus et divino nutrimento adimpletus. Multa quidem primo data effusione, una autem
+          invariabili et vivifica thearchie epulationis unitate. Multa autem communione Dei et
+          cognitione et cooperatione dignus habitus ad ipsum, sicut est possibile, assimilatione
+          bonorum habituum et operationum. Multa autem divinorum suprapositorum cognoscens et
+          thearchice scientie et cognitionis in participatione, secundum quod est fas, sanctus.
+          Quapropter et hymnos ipsius theologia existentibus in terra tradidit, in quibus sancte
+          manifestatur supreme ipsius illuminationis excessus. Etenim hii quidem ipsius, ut
+          sensibiliter dicatur, sicut vox aquarum clamant: Benedicta gloria Domini de loco isto.
+          Alii autem multum laudabilem et venerabilissimam reclamant theologiam: Sanctus, Sanctus,
+          Sanctus dominus Deus sabaoth, plena est omnis terra gloria ipsius.
+        </p>
+        <p xml:id="pdah-c7-d1e161">
+          Istas autem supremos supercelestium mentium hymnologias iam quidem in hiis que sunt de
+          divinis hymnis, sicut est possibile, replicuimus. Et dictum est de istis in illis, sicut
+          secundum nos, sufficienter. De quibus ad recordationem sufficit dicere tantum secundum
+          presens tempus quod theologica scientia primus ornatus, sicut est fas, illuminatus
+          thearchica bonitate, de hac sicut boniformis Ierarchia et hiis que sunt post ipsam deinde
+          tradidit. Illud, ut breviter dicatur, subinducens venerabilem ipsam et superlaudabilem et
+          omnino laudabilem thearchiam fas rationabiliter esse a Deum recipientibuus, sicut est
+          possibile, cognosci et laudari mentibus. Iste enim sunt sicut deiformes divina loca
+          thearchice, sicut eloquia dicunt, requiei. Et quidem quod monas est et unitas trium
+          personarum, a celestibus substantiis usque ad ultima terre extendens optimam ipsius ad
+          omnia existentia providentiam, sicut omnis substantie superprincipale principium et causa
+          et cuncta supersubstantialiter inmensurabili continentia circumsumens.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

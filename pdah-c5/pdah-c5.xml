@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput quintum</title>
+        <author>Pseudo-Dionysius</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation</resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do
+            Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="pdah-c5">
+        <head xml:id="pdah-c5-Hd1e126">Angelica Hierarchia, Caput quintum</head>
+        <head xml:id="pdah-c5-Hd1e129" type="question-title">Quod omnes celestes substantie communiter angeli dicuntur.</head>
+        <p xml:id="pdah-c5-d1e132">
+          Hec Igitur est, secundum nos, causa angelice in eloquiis nominationis. Scrutari autem,
+          sicut reor, convenit propter quam causam theologi omnes quidem celestes substantias
+          angelos vocant. Ceterum ad manifestationem venientes, supermundanorum ipsorum ornatuum
+          ordinem angelicum proprie nominant completive terminantem divinos et celestes ordines.
+          Ante hunc autem superposite ordinant archangelos ornatus et principatus et potestates et
+          virtutes et quascumque alias supergressas substantias eloquiorum sciunt manifestative
+          traditiones. Dicimus autem quod secundum sanctum ornatum ordines quidem supergressi habent
+          et subiectorum ornatuum et illuminationes et virtutes, non participes autem superpositorum
+          sunt postremi.
+        </p>
+        <p xml:id="pdah-c5-d1e135">
+          Igitur sanctissimos quidem supremarum substantiarum ordines et angelos vocant theologi.
+          Etenim sunt manifestativi et ipsi thearchice illuminationis. Ordinem autem celestium
+          mentium ultimum non habent rationem principatus aut thronos aut seraphin nominare. Neque
+          enim est in participatione supremarum virtutum. Sed, sicut ipsa nostros divinos Ierarchas
+          sursumagit ad cognitos sibi thearchie splendores, ita et ante ipsam substantiarum
+          sanctissime virtutes sursumactive ad divinum sunt adimplentes angelicas Ierarchias. Nisi
+          forsitan et hoc aliquis dicat communes esse omnes angelicas nominationes secundum omnium
+          celestium virtutum ad deiforme, et ex Deo luminis donationem subiectam et prehabentem
+          communionem. Sed, ut magis sermo nobis bene discretus sit, consideremus sancte in eloquiis
+          manifestas, sanctas et convenientes proprietates uniuscuiusque celestis ornatus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

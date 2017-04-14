@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput decimum tertium</title>
+        <author ref="#Dionysius">Pseudo-Dionysius</author>
+        <editor/>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="pdah-c13">
+        <head xml:id="pdah-c13-Hd1e110">Angelica Hierarchia, Caput decimum tertium</head>
+        <head xml:id="pdah-c13-Hd1e113" type="question-title">Quare a seraphin dicitur purgatus fuisse propheta Isaias.</head>
+        <p xml:id="pdah-c13-d1e116">
+          Age igitur et hoc secundum virtutem inspiciamus, cuius gratia ad unum theologorum
+          seraphin mitti dicitur. Etenim dubitare possit aliquis quod non subiectorum aliquis
+          angelorum, sed ipse qui dignissimis substantiis connumeratur, purgat prophetam. Igitur
+          quidam quidem dicunt quod secundum preassignatam omnium existentium communionis
+          diffinitionem, non unam circa Deum primarum mentium nominat eloquium ad theologi
+          purgationem venisse. Quendam vero nobis presidentium angelorum, sicut operatorem sanctum
+          prophete purgationis, seraphin equivocatione vocatum fuisse propter incensivam et celestem
+          dictorum ablationem et purgati ad divinissimam obedientiam susceptionem. Et eloquium unum
+          ex seraphin simpliciter dixisse dicunt, non ex hiis que circa Deum collocantur, sed ex
+          hiis que nobis president purgativis virtutibus.
+        </p>
+        <p xml:id="pdah-c13-d1e119">
+          Alius autem non valde inconvenientem mihi prebuit excusationem pro presenti instantia.
+          Dixit enim quod propriam purgativam sanctam operationem magnus ille quicumque erat qui
+          visionem formavit, angelus ad docendum divina theologum ad Deum et post Deum ad primam
+          Ierarchiam reposuit. Et numquid iste sermo verus est? Dicebat enim qui hoc dixit, quod
+          thearchica virtus ad omnia veniens capit et per omnia non valens teneri transit et omnibus
+          rursus est non apparens, non solum sicut ab omnibus supersubstantialiter segregata, sed et
+          sicut occulte ad omnia dimittens provisivas ipsius operationes. At vero et omnibus
+          intellectualibus iuxta proportionem suam superapparet et propriam luminis donationem
+          tradens divinissimis substantiis per ipsas sicut primas et subiectas ipsa bene ornate
+          distribuit secundum uniuscuiusque ornatus conspectivam conmensurationem.
+        </p>
+        <p xml:id="pdah-c13-d1e122">
+          Aut, ut planius dicam, et per propria exempla, quamvis indigentia Deo ab omnibus
+          segregato, sed nobis manifestiora, solaris radii distributio ad primam materiam bene
+          distributive vadit omnibus clariorem et per ipsam manifestius resplendere facit proprios
+          splendores. Accedens autem ad grossiores materias obscuriorem habet manifestationem ex
+          illuminatarum materiarum ad luminis donationis delativum habitum inportunitate; et
+          paulatim ex hoc ad perfecte non distributivum contrahitur. Rursus ignis calor magis se
+          ipsum distribuit ad magis susceptiva et ad ipsius assimilationem facile euntia et duci
+          facilia. Ad substantias autem contraformatas aut contrarias aut nullum aut obscurum
+          quoddam ignificative operationis vestigium manifestatur. Et isto est amplius quod ad non
+          cognata perfamiliariter ad ipsum se habentia, accedit primum, si contingat, ignea faciens
+          ad ignificationem facile imitabilia et per ipsa aut aquam aut aliud quidem eorum que non
+          facile ignificantur, iuxta proportionem calefaciens.
+        </p>
+        <p xml:id="pdah-c13-d1e126">
+          Igitur secundum eandem bone fisice ordinationis rationem, supernaturalis omnis boni
+          ornatus visibilis, et invisibilis ordinationis principatus, proprie luminis donationis
+          fulgorem prima apparitione in ditissimis effusionibus supremis substantiis manifestat, et
+          per istas que post ipsas sunt substantie, divino radio participant. Ipse enim cognoscentes
+          prime Deum et divinam virtutem superposite desiderantes, et primi operatores fieri, sicut
+          est possibile, Dei immitative virtutis et operationis digne sunt habite. Et que sunt post
+          ipsas substantias, ipse ad concertationem secundum virtutem boniformiter extendunt,
+          copiose ipsis tradentes de illa que in ipsis supervenit claritate. Et rursus ille
+          subiectis. Et secundum unamquamque prima illi que est post ipsam, tradit de dato et ad
+          omnes iuxta proportionem providentia transeunte divino lumine.
+        </p>
+        <p xml:id="pdah-c13-d1e129">
+          Est igitur universis illuminatis principium illuminationis Deus quidem natura et proprie
+          vere, sicut luminis substantia et ipsius esse et videndi causa. Postea autem et Dei
+          imitatione particulariter superposita post ipsam, unicuique eo quod lumina divina per
+          ipsam ad illam supervehuntur. Igitur supremum celestium ornatum, reliquorum universorum
+          angelorum substantie, secundum hoc quod est conveniens post Deum, principium ducunt omnes
+          sancte et Dei cognitionis et Dei imitationis, sicut per illas ad omnes et nos thearchica
+          illuminatione distributa. Quamobrem et omnem sanctam et Dei imitatricem operationem ad
+          Deum quidem sicut causam referunt. Ad primas autem et deiformes mentes, sicut primos
+          operatores divinorum et magistros. Igitur primus sanctorum angelorum ornatus, magis
+          universis habet incensivam proprietatem et effusam thearchice sapientie traditionem et
+          cognitionem supreme divinarum illuminationum scientie et thronorum proprietatem apertam
+          Deum recipiendi oportunitatem significantem. Subiectarum autem substantiarum ornatus,
+          ignea, sapiente, cognitiva Dei receptiva virtute participant quidem, sed subiecte, et ad
+          primos videntes, et per ipsas, sicut Dei imitatione, prima operatione dignas habitas ad
+          deiformis possibile sursumacti. Dictas ergo sanctas proprietates in quarum participatione
+          per primas hee que sunt post ipsas, substantie facte sunt ipsis post Deum sicut ierarchis
+          reponunt.
+        </p>
+        <p xml:id="pdah-c13-d1e132">
+          Dicebat igitur, qui ista dixit, visionem quidem illam fuisse monstratam theologo per unum
+          presidentium nobis sanctorum et bonorum angelorum, et ab illuminativa ipsius manuductione
+          ad illam sanctam contemplationem fuisse suscitatum secundum quam videbat supremas
+          substantias, sicut in signis indicatur, sub Deo et cum Deo et circa Deum collocatas et ab
+          universis et ipsis superineffabiliter segregatam superprincipalem summitatem in medio
+          subiectarum virtutum supercollacatio. Discebat igitur visis theologus quod super omnem
+          supersubstantialem eminentiam inconparabiliter erat collocatum divinum super universam
+          visibilem et invisibilem virtutem. Et quidem quod ab omnibus est segregatum, sicut
+          universaliter, neque primis existentibus substantiis conparabile. Amplius et ipsum omnium
+          et principium et causam substantificam esse et existentium indissolubilis mansionis
+          inavariabilem collocationem, a qua et esse et bene esse et ipsis supereminentibus est
+          virtutibus.
+        </p>
+        <p xml:id="pdah-c13-d1e135">
+          Postea ipsorum sanctissimorum seraphin docebatur deiformes virtutes. Sancta quidem
+          ipsorum nominatione, igneum significante, de quo paulo post dicemus, sicut nobis est
+          possibile recitare ad deiforme ignee virtutis sursumactiones. Alarum autem sextupla sancta
+          formatione ad divinum in primis, mediis et in postremis intellectualibus absolutam et
+          supremam superscitationem. Sed infinitatem pedum ipsorum et pluralitatem facierum videns
+          intellectualiter theologus et alis distingui existentem sub pedibus et sub faciebus et
+          contemplationem et in mediis alis sempiternam motionem et ad intelligibilem visorum
+          sursumagebatur cognitionem, manifesta ipsi supremarum mentium multum ambulandi et multum
+          videndi virtute et sancta ipsarum reverentia quam habent supermundane ad altiorum et
+          profundiorum superbam et temerariam et inpossibilem perscrutationem et in conmensuratione
+          Dei inmitativarum operationum indesinente et alta petente sempiterna motione. Sed et
+          thearchicam illam et multum honorabilem ymnodiam docebatur formante visionem angelo
+          secundum virtutem theologo tradente de propria sanctorum cognitione.
+        </p>
+        <p xml:id="pdah-c13-d1e138">
+          Docebat igitur ipsum et hoc quod purgatio est quocumque modo mundis thearchice splendide
+          claritatis, sicut est possibile, participatio. Ipsa autem ab ipsa thearchia excellentibus
+          causis ad omnes sanctas mentes, supersubstantiali occulto perfecta, hiis que sunt circa
+          ipsam, sicut supremis virtutibus, manifestior quodam modo est et magis se ipsam manifestat
+          et distribuit. In secundis autem aut postremis aut nobis intellectualibus virtutibus,
+          sicut ab ipsa unaqueque secundum deiforme distat, ita apparentem ipsius illuminationem
+          congregat ad proprii occulti unitivum ignotum. Illucet autem singulis secundis per primas.
+          Et si oportet compendiose dicere, primum ex occulto ad apparens agitur per primas
+          virtutes. Hoc igitur theologus docebatur ab illuminante ipsum angelo purgationem et omnes
+          thearchicas operationes per primas substantias resplendentes ad omnes reliquas distribui
+          secundum uniuscuiusque ad deificas participationes proportionem. Quapropter et ignis
+          purgativam proprietatem seraphin post Deum convenienter reposuit. Nichil igitur
+          inconveniens si purgare dicitur theologum seraphin. Nam sicut Deus purgat omnes, eo quod
+          omnis purgationis est causa.
+        </p>
+        <p xml:id="pdah-c13-d1e141">
+          Magis autem, ut propinquo utar exemplo, quemadmodum, qui secundum nos est ierarcha, per
+          ipsius diaconos aut sacerdotes purgans aut illuminans, ipse dicitur purgare aut illuminare
+          per ipsum sanctificatis ordinibus que fiunt per ipsos ad ipsum reponentibus proprias
+          sanctas operationes, ita et propriam purgativam scientiam, purgationem perficiens angelus,
+          ad Deum quidem sicut causam, ad seraphin autem sicut prius operantem ierarcham reponit.
+          Sicut si aliquis dicat cum reverentia angelica ab ipso purgatum docens, quod in te a me
+          perfecte purgationis principium quidem exaltatum et substantia et creator et causa est qui
+          et primas substantias ad esse deduxit et circa ipsum collocatione continet et conservat et
+          conversibiles et cadere inpossibiles et ipse est movens ad primas propriarum provisivarum
+          operationum participationes. Hoc enim ista me docens dixit seraphin significare
+          visionem.
+        </p>
+        <p xml:id="pdah-c13-d1e145">
+          Ierarcha autem et post Deum dux primarum substantiarum ornatus, a quo purgare ego sum
+          deiformiter edoctus. Iste igitur est per me te purgans, per quem proprias provisivas
+          operationes ex occulto et ad nos adducit, cuncte ipsa totius causa et creator purgationis.
+          Ista quidem ille docebat me. Tibi autem ego trado. Tue autem sit intellectualis et
+          discretive scientie aut alteram dictarum absolutam esse a dubitatione et hanc honorare aut
+          alteram sicut conveniens et rationabile et forsitan verum habentem aut a te ipso aliquid
+          vere vero magis cognatum invenire aut ab alio discere: Deo videlicet dante verbum et
+          conciliantibus angelis et amatoribus angelorum nobis revelare splendidam magis, si
+          possibile est, et mihi magis amabilem contemplationem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
